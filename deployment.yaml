@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: "flask"
-        image: "gcr.io/blog-246120/flask-image"
+        image: "gcr.io/<project-id>/flask-image"
 
 
 ---
@@ -122,4 +122,5 @@ spec:
     - port: 5432
   selector:
     app: postgres
+
 
